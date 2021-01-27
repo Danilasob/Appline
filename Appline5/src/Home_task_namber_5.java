@@ -13,20 +13,27 @@ public class Home_task_namber_5 {
         switch(operation) {
             case '+':
                 answer = variable1 + variable2;
+                System.out.println("Результат математической операции равен: " + answer);
                 break;
             case '-':
                 answer = variable1 - variable2;
+                System.out.println("Результат математической операции равен: " + answer);
                 break;
             case '*':
                 answer = variable1 * variable2;
+                System.out.println("Результат математической операции равен: " + answer);
                 break;
             case '/':
+                if (variable2 == 0){
+                    System.out.println("Ошибка! На ноль делить нельзя");
+                }
                 answer = variable1 / variable2;
+                System.out.println("Результат математической операции равен: " + answer);
                 break;
             default:
                //System.out.println("Некорректный символ, попробуйте еще раз!");
                 return;
         }
-        System.out.println("Результат математической операции равен: " + answer);
+
     }
 }
