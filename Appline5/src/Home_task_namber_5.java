@@ -24,10 +24,10 @@ public class Home_task_namber_5 {
                 System.out.println("Результат математической операции равен: " + answer);
                 break;
             case '/':
+                answer = variable1 / variable2;
                 if (variable2 == 0){
                     System.out.println("Ошибка! На ноль делить нельзя");
-                }
-                answer = variable1 / variable2;
+                } else
                 System.out.println("Результат математической операции равен: " + answer);
                 break;
             default:
