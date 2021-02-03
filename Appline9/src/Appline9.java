@@ -6,7 +6,7 @@ public class Appline9{
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите значение опрелеяющее размерность массива: ");
         int AmountOfElements = scan.nextInt();
-        int [] array = new int[AmountOfElements];
+        double [] array = new double[AmountOfElements];
         for (int i =0; i<array.length;i++)
         {
             System.out.println("Присвойте значение " + i + " элементу массива: ");
