@@ -6,11 +6,11 @@ public class HomeTaskNumber10 {
         int rows = scan.nextInt();
         System.out.println("Введите значение опрелеяющее размерность массива(кол-во столбцов): ");
         int colums = scan.nextInt();
-        int[][] array = new int[rows][colums];
+        double[][] array = new double[rows][colums];
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 System.out.println("Присвойте значение  array[" + i + "][" + j +  "] +  элементу массива: ");
-                array[i][j] = scan.nextInt();
+                array[i][j] = scan.nextDouble();
             }
         }
         for (int i = 0; i < array.length; i++) {

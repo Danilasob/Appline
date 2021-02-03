@@ -10,7 +10,7 @@ public class Appline9{
         for (int i =0; i<array.length;i++)
         {
             System.out.println("Присвойте значение " + i + " элементу массива: ");
-            array[i] = scan.nextInt();
+            array[i] = scan.nextDouble();
         }
         for (int i =0; i<array.length;i++){
             sum= sum+array[i];
