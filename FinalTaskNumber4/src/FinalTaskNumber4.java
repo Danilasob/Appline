@@ -16,9 +16,13 @@ public class FinalTaskNumber4 {
                 break;
 
             String answer1= scan.nextLine();
-            if ((answer1.equals(s2) && i==2) || (answer1.equals(s2) && i==3)){
+            if (answer1.equals(s2) && i==2){
                 System.out.println("Подсказка уже не доступна");
-                break;
+                i = i - 1;
+            }
+            else if (answer1.equals(s2) && i==3){
+                System.out.println("Подсказка уже не доступна");
+                i = i - 1;
             }
 
             else
